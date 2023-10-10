@@ -1,0 +1,39 @@
+.ofertas {
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+
+.item {
+  margin: 1em;
+  float: left;
+}
+
+/* Estilo para el contenedor de las imágenes */
+.item {
+  margin: 1em;
+  float: left;
+  width: 260px; /* Ancho definido para el contenedor de la imagen */
+  height: 260px; /* Alto definido para el contenedor de la imagen */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga del contenedor */
+  position: relative; /* Establece el contenedor como la referencia de posición para las imágenes */
+}
+
+.card {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilo para las imágenes */
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out; /* Opcional: añade una transición suave al cambiar el tamaño de la imagen */
+}
+
+/* Opcional: Aumenta ligeramente el tamaño de la imagen al pasar el mouse */
+.item:hover .card-img {
+  transform: scale(1.05);
+}

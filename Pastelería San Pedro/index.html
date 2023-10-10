@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="shortcut icon" href="images/logo san pedro.png" type="image/x-icon">
+    <meta name="author" content="equipo Dinamita">
+    <meta name="description" content="Super mercado de productos varios">
+    <meta name="keyword" content="Super mercado, Super market">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet"> <!-- Enlace a la fuente Poppins -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Pastelería San Pedro</title>
+</head>
+
+<body>
+    <header class="container" style="margin-top: 20px;">
+
+
+
+        <div class="d-flex justify-content-between align-items-center"> <!-- Alineación horizontal y vertical -->
+            <div class="header-logo">
+                <a href="https://www.facebook.com/PasteleriaSanPedroSV/">
+                    <img class="header-logo-img img-fluid" src="images/logo san pedro.png" alt="logo">
+                </a>
+            </div>
+
+            <div class="social-cart-group"> <!-- Nuevo div para agrupar las redes sociales y el carrito -->
+                <div class="d-flex justify-content-end social-media">
+                    <!-- Alineación horizontal de las redes sociales -->
+                    <a href="#">
+                        <img class="social-media-logo img-fluid" src="images/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img class="social-media-logo img-fluid" src="images/whatsapp.svg" alt="whatsapp">
+                    </a>
+                    <a href="#">
+                        <img class="social-media-logo img-fluid" src="images/Group 2012.svg" alt="instagram">
+                    </a>
+                </div>
+                <div class="d-flex justify-content-end"> <!-- Alineación horizontal del carrito -->
+                    <button type="button" class="btn btn-light shopping custom-button" data-bs-toggle="modal"
+                        data-bs-target="#cart-modal">
+                        <img src="images/carrito.svg" alt="Carrito de compras">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <hr>
+
+
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                    aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                    <ul class="navbar-nav d-flex justify-content-between align-items-center w-100">
+                        <!-- ... rest of the nav items ... -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/categorias.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/Ofertas.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/productos_nuevos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/mejores-marcas.html">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/login.html">Log in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main class="container d-flex flex-column mt-3 custom-alignment">
+
+        <div class="row align-items-center">
+            <div class="col-md-6 "> <!-- Añadido col-md-6 para controlar el ancho de la columna -->
+                <div class="header-txt">
+                    <span class="custom-spam">Los mejores</span>
+                    <h1 class="custom-h1">Pasteles</h1>
+                    <p class="custom-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas tempore fugiat
+                        doloribus
+                        repudiandae,
+                        est nisi ad ab. Consectetur natus tempore ipsum? Doloremque fugiat facere in iusto animi fuga
+                        provident sint.
+                    </p>
+                    <a href="#" class="btn-1">Más información
+                        <img class="btn-arrow img-fluid" src="images/arrow-right.svg" alt="Flecha hacia la derecha">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <!-- Añadido col-md-6 y text-center para controlar el ancho de la columna y centrar la imagen -->
+                <div class="header-img">
+                    <img src="images/pastel.png" alt="Imagen de un pastel">
+                </div>
+            </div>
+
+            <div class="services container d-flex justify-content-between">
+
+                <div class="services-1 d-flex flex-column align-items-start pedidos">
+                    <!-- Añadido d-flex flex-column align-items-center -->
+                    <img src="images/Calendar Starred.svg" alt="">
+                    <h3>Pedidos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt vero dolores ratione, ullam
+                        placeat
+                        dolor sequi dolore exercitationem quibusdam. Voluptatum rem animi dolorum dolor sint? Magni sint
+                        recusandae debitis.
+                    </p>
+                </div>
+                <div class="services-1 d-flex flex-column align-items-start">
+                    <!-- Añadido d-flex flex-column align-items-center -->
+                    <img src="images/Package.svg" alt="">
+                    <h3>Consultas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt vero dolores ratione, ullam
+                        placeat
+                        dolor sequi dolore exercitationem quibusdam. Voluptatum rem animi dolorum dolor sint? Magni sint
+                        recusandae debitis.
+                    </p>
+                </div>
+                <div class="services-1 d-flex flex-column align-items-start locacion">
+                    <!-- Añadido d-flex flex-column align-items-center -->
+                    <img src="images/Home 1.svg" alt="">
+                    <h3>Locación</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt vero dolores ratione, ullam
+                        placeat
+                        dolor sequi dolore exercitationem quibusdam. Voluptatum rem animi dolorum dolor sint? Magni sint
+                        recusandae debitis.
+                    </p>
+                </div>
+
+
+            </div>
+
+            <section class="donut-section">
+                <div class="donas-img">
+                    <img src="images/dona2.png" alt="">
+                </div>
+                <div class="container-total">
+                    <div class="donas-container">
+                        <h1>¡Sorpresa!</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas tempore fugiat doloribus
+                            repudiandae,
+                            est
+                            nisi ad ab. Consectetur natus tempore ipsum? Doloremque fugiat facere in iusto animi fuga
+                            provident
+                            sint.
+                        </p>
+                        <a href="#" class="btn-2">Nuestras donas <img class="btn-arrow img-fluid"
+                                src="images/arrow-right.svg" alt="Flecha hacia la derecha">
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <div class="container products-div">
+                <h2 class="products-title">
+                    Nuestros estelares
+                </h2>
+                <div class="row">
+                    <!-- Carousel -->
+                    <div class="col-lg-6 carrusel">
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                            <!-- ... contenido del carrusel ... -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="images/pastel 1_Mesa de trabajo 1.jpg" class="d-block w-100"
+                                        alt="Macbook">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="10000">
+                                    <img src="images/pastel 1-02.jpg" class="d-block w-100" alt="iphone">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="10000">
+                                    <img src="images/pastel 1-03.jpg" class="d-block w-100" alt="setup">
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cards -->
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <div class="card text-bg-dark card-cake">
+                                    <!-- ... contenido de la primera tarjeta ... -->
+                                    <img src="images/pastelitos_Mesa de trabajo 1.jpg" class="card-img" alt="...">
+                                    <div class="card-img-overlay">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card text-bg-dark card-model">
+                                    <!-- ... contenido de la segunda tarjeta ... -->
+                                    <img src="images/pastelitos-02.jpg" class="card-img" alt="...">
+                                    <div class="card-img-overlay">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="banner container">
+            <a href="#"><img class="img-banner img-fluid" src="images/Banner_Mesa de trabajo 1.jpg"
+                    alt="Banner informativo"></a>
+        </div>
+
+        <h5 class="promos-cake">¡Promos de mes!</h5>
+        <div class=" products row row-cols-1 row-cols-md-3 g-4 container my-2 justify-content-center">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/producto inicio 1@2x.png" class="card-img-top" alt="Iphone X plateado">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresa cake</h5>
+                        <p class="card-text">
+                            Una torta de pastel tradicionalmente redondo compuesto de una o más capas
+                            de masa dulce cocida al horno, rellenas y decoradas con crema pastelera, trufa de chocolate
+                            y fresas.
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted">
+                            <span class="price">$2.99</span>
+                            <div class="control-group">
+                                <input type="number" class="input-increment" placeholder="1">
+                                <div class="button-group">
+                                    <a href="#!" class="add-product add-to-cart" data-name="Iphone X"
+                                        data-price="450.00"><i class="bi bi-plus-lg"></i></a>
+                                    <a href="#" class="remove-product"><i class="bi bi-dash"></i></a>
+                                </div>
+
+                            </div>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/producto inicio 2@2x.png" class="card-img-top" alt="Buds 3 Xiaomi">
+                    <div class="card-body">
+                        <h5 class="card-title">HERSHEY'S cupcake</h5>
+                        <p class="card-text">¿Eres amante del chocolate? Entonces estos cupcakes te van a encantar.
+                            Deliciosos cremosos y con trozos de hershey.
+                            .</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted">
+                            <span class="price">$0.50</span>
+                            <div class="control-group">
+                                <input type="number" class="input-increment" placeholder="1">
+                                <div class="button-group">
+                                    <a href="#!" class="add-product add-to-cart" data-name="Iphone X"
+                                        data-price="450.00"><i class="bi bi-plus-lg"></i></a>
+                                    <a href="#" class="remove-product"><i class="bi bi-dash"></i></a>
+                                </div>
+
+                            </div>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/producto inicio 3@2x.png" class="card-img-top" alt="Nothing One">
+                    <div class="card-body">
+                        <h5 class="card-title">Rebanada morena</h5>
+                        <p class="card-text">Una rebanada de pastel "Morena" el favorito de todos. Esta relleno de
+                            nuestra famosa crema pastelera de chocolate</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <small class="text-muted">
+                            <span class="price">$2.99</span>
+                            <div class="control-group">
+                                <input type="number" class="input-increment" placeholder="1">
+                                <div class="button-group">
+                                    <a href="#!" class="add-product add-to-cart" data-name="Iphone X"
+                                        data-price="450.00"><i class="bi bi-plus-lg"></i></a>
+                                    <a href="#" class="remove-product"><i class="bi bi-dash"></i></a>
+                                </div>
+
+                            </div>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section>
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Pastelería San Pedro
+                        </h6>
+                        <p>
+                            Somos pasteleros de corazón, cuando pruebas un trozo del pan o pastel que preparamos
+                            ¡Quedarás encantado!
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Cómo comprar
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pagos</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Opciones de entrega</a>
+                        </p>
+
+                        <p>
+                            <a href="#!" class="text-reset">Nuestra ubicación</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Servicio al cliente
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Centro de ayuda</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Contáctenos</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Políticas y normas</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contáctenos</h6>
+                        <p><i class="bi bi-house-door me-3"></i>Residencial San Pedro, San Salvador, El Salvador</p>
+                        <p>
+                            <i class="bi bi-envelope-at me-3"></i>
+                            ppsanpedro22@gmail.com
+                        </p>
+                        <p><i class="bi bi-telephone me-3"></i> + 503 7441-3263</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center p-4 text-copy" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="#">PasteleríaSanPedro.com</a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+
+</body>
+
+
+</html>

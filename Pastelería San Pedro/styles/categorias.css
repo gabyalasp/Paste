@@ -1,0 +1,29 @@
+.card {
+  background-color: rgb(241, 246, 250) !important;
+  border-color: rgb(241, 246, 250) !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container,
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-containing-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

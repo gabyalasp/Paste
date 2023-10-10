@@ -1,0 +1,324 @@
+body {
+  background-color: #ffb8f4;
+  font-family: "Poppins", sans-serif;
+}
+
+.social-cart-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alineación vertical del grupo de redes sociales y carrito */
+}
+
+.social-media .social-media-logo {
+  margin-right: 10px; /* Espaciado entre los logos de las redes sociales */
+}
+
+.custom-button {
+  background-color: transparent;
+  border: none;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+  background-color: #fc92ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Centra horizontalmente la lista de navegación dentro de la navbar */
+  padding: 0 5%; /* Agrega padding a los lados para separar los elementos de los bordes */
+}
+
+/* Estilo para los elementos de la lista en la barra de navegación */
+.navbar-nav .nav-link {
+  color: #067848 !important; /* !important para sobrescribir cualquier otro estilo que pueda afectar */
+}
+
+/* Cambiar el color al pasar el ratón (hover) */
+.navbar-nav .nav-link:hover {
+  color: #fff !important; /* Cambia el color a blanco al pasar el ratón, puedes ajustar este color según tu preferencia */
+}
+
+.header-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alineación vertical */
+  height: 100%; /* Asegura que el contenedor tome toda la altura disponible */
+  padding-left: 110px;
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Alineación vertical */
+  height: 100%; /* Asegura que el contenedor tome toda la altura disponible */
+}
+
+.header-img {
+  padding-top: 50px; /* Ajusta este valor según sea necesario */
+}
+
+.custom-spam {
+  color: #067848;
+  font-size: 20px;
+}
+
+.custom-h1 {
+  color: #067848;
+  font-size: 67px;
+}
+
+.custom-p {
+  color: #067848;
+  font-size: 16px;
+  width: 379px;
+  height: 92px;
+}
+
+.btn-1,
+.btn-2 {
+  width: 239px;
+  height: 51px;
+  background-color: #fff;
+  border-radius: 36px;
+  color: #067848;
+  text-decoration: none;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.btn-arrow {
+  margin-left: 15px;
+}
+
+.services {
+  margin-top: 200px;
+  padding-left: 90px;
+  padding-right: 160px;
+}
+
+.services-1 {
+  width: 257px; /* Asegura que cada contenedor de servicio tenga el mismo ancho */
+  height: 316px;
+}
+
+.services-1 img {
+  color: #067848;
+  width: 29.19px;
+  height: 32.84px;
+  margin-bottom: 20px;
+}
+
+.services-1 h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #067848;
+}
+
+.services-1 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #067848;
+}
+
+.donut-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.container-total {
+  width: 35%;
+}
+
+.donut-section h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #067848;
+}
+
+.donut-section p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #067848;
+}
+
+.donas-img img {
+  width: 353px;
+  height: 278px;
+}
+
+.products-div {
+  margin-top: 80px;
+}
+
+.products-title,
+.promos-cake {
+  font-size: 67px;
+  font-weight: 700;
+  color: #ff48e3;
+  margin-bottom: 40px;
+  line-height: 78.72px;
+}
+
+.carrusel {
+  width: 50%;
+}
+
+/* Asegúrate de que las tarjetas tengan la misma altura */
+.card {
+  width: 100%;
+  height: 205px;
+}
+
+/* Asegúrate de que las imágenes de las tarjetas se estiren para llenar el espacio disponible */
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.banner {
+  width: 103%;
+  margin-left: -12px;
+  margin-right: 0;
+}
+
+.banner img {
+  margin-top: 70px;
+  width: 100%;
+}
+
+.promos-cake {
+  margin-top: 60px;
+}
+
+div .card-img-top {
+  width: 148.19px;
+  height: 118.2px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* Asegurarte que los cards tengan la misma altura */
+.products .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Alinear el contenido de los cards al centro */
+.products .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Alinear el texto del footer al centro */
+.products .card-footer {
+  text-align: center;
+}
+
+/* Establecer una altura mínima para las imágenes */
+.products .card-img-top {
+  min-height: 200px; /* Ajusta este valor según lo necesario */
+  object-fit: cover; /* Asegura que las imágenes se redimensionen correctamente */
+}
+
+.products .card .card-title {
+  color: #067848;
+  font-size: 30.29px;
+  font-weight: 700;
+}
+
+.products .card .card-text {
+  color: #067848;
+  font-size: 17.36px;
+  font-weight: 400;
+}
+
+.card-footer small {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.products .card-footer .price {
+  font-size: 40.89px;
+  color: #ff48e3;
+  font-weight: 700;
+}
+
+.card-footer input {
+  width: 59.1px;
+  height: 45.87px;
+}
+
+.card-footer a.add-product {
+  width: 13px;
+  height: 35px;
+  color: #18c47c;
+}
+
+.card-footer a.remove-product {
+  width: 13px;
+  height: 35px;
+  color: #d97963;
+}
+
+.control-group {
+  display: flex;
+  align-items: center; /* Alinea el input y el grupo de botones verticalmente */
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column; /* Coloca los botones uno encima del otro */
+  margin-left: 5px; /* Añade espacio entre el input y los botones */
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 30px;
+}
+
+footer h6,
+footer p,
+footer a {
+  color: #067848; /* Color verde para los textos y enlaces */
+}
+
+footer a:hover {
+  color: #045a4b; /* Color verde oscuro para los enlaces al pasar el ratón */
+  text-decoration: none;
+}
+
+footer .fas,
+footer .bi {
+  color: #067848; /* Color verde para los iconos */
+}
+
+/* Ajustes de margen y padding para mejorar el espaciado */
+footer .row > div {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer .text-copy {
+  color: #067848;
+  padding: 20px;
+  margin-top: 20px; /* Espaciado adicional en la parte superior */
+}
