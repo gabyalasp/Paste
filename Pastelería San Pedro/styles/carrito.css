@@ -1,17 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: "Montserrat", sans-serif;
   background-color: #ffb8f4;
   color: #067848;
 }
 
 header {
   margin: 2rem;
-  background-color:#ffb8f4;
+  background-color: #ffb8f4;
 }
 
 .header-logo {
@@ -28,29 +26,26 @@ header {
   width: 70%;
   justify-content: right;
   margin-right: -83px;
-  
 }
 
 .social-media-logo {
-
   width: 2rem;
   height: 2rem;
   margin: 0.5rem;
   border-radius: 10%;
 }
 
-.navbar{
-  background-color: #FC92EC;
+.navbar {
+  background-color: #fc92ec;
 }
 
-.navbar .nav-link{
+.navbar .nav-link {
   color: #067848;
-  
 }
 
 .navbar-nav {
   width: 100%;
-  background-color: #FC92EC;
+  background-color: #fc92ec;
   margin-right: 70px;
   margin-left: 70px;
 }
@@ -61,15 +56,13 @@ header {
 }
 
 .navbar-nav li a:hover {
-  color:#ffffff;
+  color: #ffffff;
   cursor: pointer;
-  
 }
 
 .header-nav-search {
   margin-left: 4rem;
   margin-right: 2rem;
-  
 }
 
 .shopping {
@@ -86,152 +79,204 @@ header {
   width: 2rem;
 }
 
-.box{
-  /* cada una de los productos tiene este ancho y alto el inline-block es paraa que se coloque un a la par del otro despues un borde tipo gris un poco trasparente luego fondo blanco redondeo de los bordes  */
-width: 500px;
-height: 600px;
-border: 1px solid rgba(108, 195, 98, 0.45);
-background-color:  #fff3ff;
-border-radius: 10px;
-margin: 100px 0px 0px 800px;
-padding: -125px;
-}
-
-#producto{
+#producto {
   text-align: left;
   font-size: 30px;
   font-weight: 800;
   padding: 25px;
   position: relative;
-  writing-mode: horizontal-tb
-  
-  
-
+  writing-mode: horizontal-tb;
 }
 
-#producto2{
+#producto2 {
   text-align: left;
   font-size: 30px;
   font-weight: 800;
   padding: 25px;
-  margin-top:-40px;
-  color: #FC92EC;
+  margin-top: -40px;
+  color: #fc92ec;
   position: relative;
-  writing-mode: horizontal-tb
-  
-  
-
+  writing-mode: horizontal-tb;
 }
 
-#paragraph{
+#paragraph {
   text-align: left;
-  font-size: 12px;
+  font-size: 18px;
   padding: 25px;
   line-height: normal;
   position: relative;
-  margin-top:-42px;
-  writing-mode: horizontal-tb
-
-  
+  margin-top: -42px;
+  writing-mode: horizontal-tb;
 }
 
-#tamaño{
+#tamaño {
   text-align: left;
   font-size: 20px;
   font-weight: 800;
   padding: 25px;
   margin-top: -40px;
   position: relative;
-  writing-mode: horizontal-tb
-
+  writing-mode: horizontal-tb;
 }
 
-#porciones{
+#porciones {
   text-align: left;
   font-size: 15px;
   padding: 25px;
   line-height: normal;
   position: relative;
   margin-top: -35px;
-  writing-mode: horizontal-tb
+  writing-mode: horizontal-tb;
 }
 
-
 .input-increment {
-    width: 35px;
-    text-align: left;
-    margin-left: -65%;
-    padding-left: 1%;
-   
-    
-    
-  }
+  width: 35px;
+  text-align: left;
+  margin-left: -65%;
+  padding-left: 1%;
+}
 
-.btn-success{
-    background-color: #ce4e7e;
-    border: none;
-    cursor: pointer;
-    color: #fff3ff;
-    border-radius: 15px;
-    margin-left: 55%;
-    margin-top: -35%;
-    padding: 2%;
-    position: relative;
+.btn-success {
+  display: inline-block;
+  background-color: #ce4e7e;
+  border: none;
+  cursor: pointer;
+  color: #fff3ff;
+  border-radius: 15px;
+  margin-left: 55%;
+  margin-top: -35%;
+  padding: 2%;
+  position: relative;
+}
 
+.footer {
+  padding: 150px 0px;
+  color: #067848;
+}
 
-  }
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  color: #067848;
+}
 
-  .cakes{
-   height: 550px ;
-   width: 550px;
-   position: relative;
-   top: -600px;
-   right: inherit;
-   right: -150px;
-   
-   
+.links h3 {
+  font-size: 20px;
+  color: #067848;
+  margin-bottom: 40 px;
+}
 
-  }
+.socials img {
+  margin-right: 40px;
+  color: #067848;
+}
 
+link ul li a {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 40px;
+  color: #067848;
+}
 
-  .footer {
-    padding: 150px 0px;
-    color: #067848;
-  }
-  
-  .footer-links {
+img,
+svg {
+  vertical-align: middle;
+}
+
+img.position-absolute {
+  margin-left: -3cm;
+}
+
+.position-absolute w-100h-100 {
+  position: absolute !important;
+  margin-top: auto;
+}
+
+@media (min-width: 992px) {
+  .listProducts {
     display: flex;
-    justify-content: space-between;
-    color: #067848;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
   }
-  
-  .links h3 {
-    font-size: 20px;
-    color: #067848;
-    margin-bottom: 40 px;
+
+  .cakes {
+    max-width: 50%;
+    height: auto;
   }
-  
-  .socials img {
-    margin-right: 40px;
-    color: #067848;
+
+  .box {
+    max-width: 50%;
   }
-  
-  link ul li a {
-    font-size: 16px;
+}
+
+/* Estilos para dispositivos más pequeños */
+@media (max-width: 991px) {
+  .cakes {
     display: block;
-    margin-bottom: 40px;
-    color: #067848;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
   }
-  
-  img, svg {
-      vertical-align: middle;
+
+  .box {
+    width: 100%;
   }
-  
-  img.position-absolute {
-      margin-left: -3cm;
+}
+
+/* Estilos para el contenedor principal */
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Alinea los elementos en la parte superior */
+  flex-wrap: wrap; /* Asegura que los elementos se apilen en pantallas pequeñas */
+  gap: 1rem; /* Espaciado entre la imagen y el formulario */
+  margin: auto; /* Centra el contenedor */
+}
+
+/* Estilos para la imagen del pastel */
+.product-image {
+  flex: 1; /* Permite que el contenedor de la imagen crezca */
+  text-align: center; /* Centra la imagen en su contenedor */
+}
+
+.cakes {
+  max-width: 70%; /* Hace que la imagen sea responsive y no se salga del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Estilos para el formulario y el contenido */
+.box {
+  flex: 1; /* Permite que el contenedor del formulario crezca */
+  padding: 1rem; /* Espaciado interior */
+  border: 1px solid rgba(108, 195, 98, 0.45);
+  background-color: #fff3ff;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  width: 200px;
+  height: auto;
+}
+
+.add-to-cart {
+  text-decoration: none;
+  color: #067848;
+  background-color: #fc92ec;
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Estilos para responsividad */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column; /* Alinea los elementos verticalmente en pantallas pequeñas */
   }
-  
-  .position-absolute w-100h-100{
-      position: absolute!important;
-      margin-top: auto;
+
+  .cakes {
+    margin: 0 auto;
   }
+
+  .box {
+    width: 100%;
+  }
+}
