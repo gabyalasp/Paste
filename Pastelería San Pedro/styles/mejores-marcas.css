@@ -12,18 +12,21 @@
 	grid-template-columns: repeat(2,1fr);
 	grid-gap: 50px;
 	margin-top: 90px;
+	margin-bottom: 90px;
 
 }
 
 .container-form h2{
 	margin-bottom: 15px;
-	font-size: 35px
+	font-size: 35px;
+	color: #067848;
 }
 
-.container-font p{
+.container-form p{
 	font-size: 17px;
 	line-height: 1.6;
-	margin-bottom: 30px
+	margin-bottom: 30px;
+	color: #067848;
 }
 
 .container-form a{
@@ -73,3 +76,77 @@
 .container-form .btn-enviar{
 	background: #067848;
 } 
+
+.container-redesback{
+	background-color: #fff;
+	padding-top: 2px;
+	padding-bottom: 25px;
+
+}
+
+.container-redes{
+	width: 100%;
+	max-width: 1100px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.container-redes h2{
+	margin-bottom: 15px;
+	font-size: 35px;
+	color: #067848;
+
+}
+
+.container-redes a{
+	font-size: 17px;
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	margin-bottom: 15px;
+	color: #067848;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.container-redes a i{
+	color: #067848;
+	margin-right: 10px;
+}
+
+.container-map{
+	width: 100%;
+	max-width: 1100px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.container-map h2{
+	margin-bottom: 15px;
+	font-size: 35px;
+	color: #067848;
+}
+
+.container-map a{
+	font-size: 17px;
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	margin-bottom: 15px;
+	color: #067848;
+	font-weight: 200;
+	margin-top: 10px;
+}
+
+.container-map a i{
+	color: #067848;
+	margin-right: 10px;
+}
+
+.container-map img{
+	border: 15px solid rgba(255, 255, 255, .9);
+	border-radius: 20px;
+	width: 75%;
+	height: 75%;
+}
+

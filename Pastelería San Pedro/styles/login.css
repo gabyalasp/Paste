@@ -8,6 +8,7 @@ main form{
     width: 100%;
     padding: 10px;
     border-radius: 10%;
+    background: white;
 }
 
 @media screen and (min-width: 1000px) {
